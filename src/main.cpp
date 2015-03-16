@@ -231,6 +231,14 @@ static int printDistanceTable(std::istream& in, WordProjections& projections)
     return EXIT_SUCCESS;
 }
 
+static void printUsage(std::ostream& out, const char* executableName)
+{
+	out << "Usages:\n"
+	<< executableName << " PROJECTION_FILE\n"
+	<< executableName << " PROJECTION_FILE < TOKENS...\n"
+	<< executableName << " PROJECTION_FILE TOKENS_FILE\nwhere PROJECTION_FILE contains word projections in binary format\n";
+}
+
 }
 
 int main(int argc, char **argv)
@@ -239,7 +247,7 @@ int main(int argc, char **argv)
 
     if (argc < 2)
     {
-        std::cerr << "Usage: " << argv[0] << " PROJS [TOKENS_FILE]\nwhere PROJS contains word projections in the BINARY FORMAT\n";
+        w2v::printUsage(std::cerr, argv[0]);
         result = EX_USAGE;
     }
     else

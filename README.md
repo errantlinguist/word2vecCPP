@@ -11,4 +11,5 @@ A utility for calculating word similarities using [word2vec](https://code.google
 Requirements
 ---------------------------
 * Compiler: This was developed primarily using Clang 3.4.1 on an Ubuntu-derived Linux system.
-* Boost String Algorithms Library 1.551: http://www.boost.org/doc/libs/1_57_0/doc/html/string_algo.html
+* Boost String Algorithms Library v1.55.0: http://www.boost.org/doc/libs/1_57_0/doc/html/string_algo.html
+* Boost Tokenizer v1.55.0: http://www.boost.org/doc/libs/1_57_0/libs/tokenizer/index.html
