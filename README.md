@@ -6,7 +6,7 @@ A utility for calculating word similarities using [word2vec](https://code.google
 * **Since:** 2015-03-16
 * **Author:** Todd Shore
 * **Website:** https://github.com/errantlinguist/word2vecCPP
-* **Licensing:** Copyright &copy; 2014 Todd Shore. Licensed for distribution under the Apache License 2.0: See the files `NOTICE.txt` and `LICENSE.txt`.
+* **Licensing:** Copyright &copy; 2014 Todd Shore. Licensed for distribution under the Apache License 2.0: See the files `NOTICE` and `LICENSE`.
 
 Requirements
 ---------------------------
